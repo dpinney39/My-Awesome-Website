@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #faebd7;
 }
 /* Link Styles */
 
@@ -27,7 +27,7 @@ img {
 }
 .main-nav {
   width: 100%;
-  background: black;
+  background:  maroon;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -58,7 +58,7 @@ img {
 }
 header {
   text-align: center;
-  background: url('Images/portland.jpg') no-repeat top center ;
+  background: url("Images/pexels-photo-372326.jpeg") no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,34 +67,35 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  margin-top: 30px;
+  width: 250px;
+  height: 250px;
+  border-radius: 30%;
+  border: 2px solid maroon;
   transition: all .5s;
 }
+
 header .profile-image:hover {
-  transform: scale(1.2) rotate(180deg);
+  transform: scale(1.2) rotate(none);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
+  background-color: #ffe4c4;
+  color: maroon;
+  padding: 5px;
   border-radius: 5px;
   display: table;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 .location {
-background-color: #222;
-color: yellow;
+background-color: #808080;
+color: maroon;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #c0c0c0;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -109,13 +110,13 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: maroon;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: salmon;
 }
 footer {
   width: 100%;
