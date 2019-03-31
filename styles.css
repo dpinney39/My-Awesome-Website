@@ -71,12 +71,12 @@ header .profile-image {
   width: 250px;
   height: 250px;
   border-radius: 30%;
-  border: 2px solid maroon;
+  border: 3px solid maroon;
   transition: all .5s;
 }
 
 header .profile-image:hover {
-  transform: scale(1.2) rotate(none);
+  transform: scale(1.2);
 }
 .tag {
   background-color: #ffe4c4;
